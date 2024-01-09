@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.page {
+  background-image: url(./../assets/imgs/bg-deco-left.svg),url(./../assets/imgs/bg-deco-right.svg);
+  background-repeat: no-repeat;
+  background-position: 220px bottom,100% 0;
+  background-size: 150px,250px;
+  background-attachment: fixed;
+  display: block;
+  
+  height: 100vh;
+  overflow: auto;
+  padding: 5rem 2.5rem;
+}
+
+body {
+  background-color: #3a3d57;
+  color: white;
+}
